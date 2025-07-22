@@ -8,35 +8,54 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* Agricultural & Blockchain Theme Colors */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 240 10% 3.9%;
 
     --card: 0 0% 100%;
-    --card-foreground: 222.2 84% 4.9%;
+    --card-foreground: 240 10% 3.9%;
 
     --popover: 0 0% 100%;
-    --popover-foreground: 222.2 84% 4.9%;
+    --popover-foreground: 240 10% 3.9%;
 
-    --primary: 222.2 47.4% 11.2%;
-    --primary-foreground: 210 40% 98%;
+    /* Primary: Forest Green for agricultural trust */
+    --primary: 142 76% 36%;
+    --primary-foreground: 355.7 100% 97.3%;
+    --primary-glow: 142 76% 46%;
 
-    --secondary: 210 40% 96.1%;
-    --secondary-foreground: 222.2 47.4% 11.2%;
+    /* Secondary: Earth Brown for organic feel */
+    --secondary: 25 30% 88%;
+    --secondary-foreground: 142 76% 26%;
 
     --muted: 210 40% 96.1%;
     --muted-foreground: 215.4 16.3% 46.9%;
 
-    --accent: 210 40% 96.1%;
-    --accent-foreground: 222.2 47.4% 11.2%;
+    /* Accent: Tech Blue for blockchain elements */
+    --accent: 217 91% 60%;
+    --accent-foreground: 210 40% 98%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 210 40% 98%;
 
     --border: 214.3 31.8% 91.4%;
     --input: 214.3 31.8% 91.4%;
-    --ring: 222.2 84% 4.9%;
+    --ring: 142 76% 36%;
 
-    --radius: 0.5rem;
+    /* Design System Extensions */
+    --hero-gradient: linear-gradient(135deg, hsl(142 76% 36%), hsl(217 91% 60%));
+    --success: 142 76% 36%;
+    --success-foreground: 355.7 100% 97.3%;
+    --warning: 38 92% 50%;
+    --warning-foreground: 48 96% 89%;
+    
+    /* Shadows & Effects */
+    --shadow-elegant: 0 10px 30px -10px hsl(142 76% 36% / 0.3);
+    --shadow-glow: 0 0 40px hsl(142 76% 46% / 0.4);
+    
+    /* Animations */
+    --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+
+    --radius: 0.75rem;
 
     --sidebar-background: 0 0% 98%;
 
