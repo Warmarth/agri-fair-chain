@@ -1,73 +1,120 @@
-# Welcome to your Lovable project
+# 🌾 AgriChainHub
 
-## Project info
+> **Decentralizing Agricultural Trade for Smallholder Empowerment Using Blockchain (ICP)**
 
-**URL**: https://lovable.dev/projects/2675e374-1d2b-42d6-a6fd-d5ba247fbced
+---
 
-## How can I edit this code?
+## 📖 Overview
 
-There are several ways of editing your application.
+Small-scale farmers are essential to food security but face:
+- Exploitative middlemen
+- Opaque pricing
+- Limited market access
 
-**Use Lovable**
+**AgriChainHub** leverages **ICP (Internet Computer Protocol)** to build a **secure, decentralized marketplace** that connects farmers directly with buyers, ensuring:
+✅ Transparent pricing  
+✅ Fair trade  
+✅ Secure, instant payments
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/2675e374-1d2b-42d6-a6fd-d5ba247fbced) and start prompting.
+By bridging farmers and markets, **AgriChainHub doesn’t just disrupt—it democratizes.**
 
-Changes made via Lovable will be committed automatically to this repo.
+---
 
-**Use your preferred IDE**
+## ✨ Features
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- **Direct Marketplace:** Farmers list produce and negotiate with buyers directly.
+- **Smart Contracts (Canisters):** Automate secure payments upon delivery confirmation.
+- **Real-Time Pricing:** Farmers access accurate market data to negotiate fairly.
+- **Traceability:** Immutable on-chain records for produce journey (farm → buyer).
+- **Low Transaction Costs:** Thanks to ICP’s reverse-gas model.
+- **Inclusive Access:** USSD/SMS fallback for low-connectivity environments.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+---
 
-Follow these steps:
+## 🎯 Goals
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+✅ Increase farmer income by 20–40% by reducing intermediaries  
+✅ Improve supply chain efficiency and transparency  
+✅ Enable buyers to source fresher, verified produce  
+✅ Strengthen food security with a transparent system
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+---
 
-# Step 3: Install the necessary dependencies.
-npm i
+## 🛠 Tech Stack
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
+- **Blockchain:** Internet Computer Protocol (ICP)
+- **Smart Contracts:** Motoko / Rust Canisters
+- **Backend:** ICP Canisters for API logic
+- **Frontend:** React / SvelteKit deployed as canisters
+- **Storage:** ICP stable memory / decentralized storage via Internet Computer
+- **Payments:** ICP Cycles / integration with ckBTC or future stable tokens
+- **Optional:** USSD/SMS fallback using external gateways with canister triggers
 
-**Edit a file directly in GitHub**
+---
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+## 🚩 Roadmap
 
-**Use GitHub Codespaces**
+- [x] Architecture and canister design
+- [x] Basic farmer and buyer onboarding system
+- [ ] Core marketplace MVP (listing, bidding, smart contract settlement)
+- [ ] Traceability module integration
+- [ ] Payment settlement with ckBTC or stable token
+- [ ] Pilot testing with local cooperatives
+- [ ] Expansion via partnerships
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+---
 
-## What technologies are used for this project?
+## 🚧 Challenges & Mitigation
 
-This project is built with:
+- **Connectivity issues in rural areas:** Offline data capture and periodic sync + USSD fallback.
+- **Digital literacy:** Training and cooperative-based onboarding.
+- **Initial liquidity:** Bootstrap liquidity through grants and NGO partnerships.
+- **Regulatory considerations:** Align with local agricultural and crypto compliance.
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+---
 
-## How can I deploy this project?
+## 🤝 Contributing
 
-Simply open [Lovable](https://lovable.dev/projects/2675e374-1d2b-42d6-a6fd-d5ba247fbced) and click on Share -> Publish.
+Contributions are welcome!
 
-## Can I connect a custom domain to my Lovable project?
+1. Fork the repository
+2. Create your feature branch (`git checkout -b feature/your-feature`)
+3. Commit your changes (`git commit -m 'Add your feature'`)
+4. Push to your branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
 
-Yes, you can!
+See [CONTRIBUTING.md](CONTRIBUTING.md) for guidelines.
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+---
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## 📜 License
+
+Distributed under the MIT License. See [LICENSE](LICENSE) for details.
+
+---
+
+## 🌐 Contact
+
+- **Project Lead:** [Godson](https://github.com/warmarth)
+- **Email:** cobbyfranky@outlook.com
+- **Twitter:** [@cobbyfarnky](https://twitter.com/@cobbyfarnky)
+- **Discord:** [cobbyfranky]
+
+- **Smart Contract:** ultra0x
+- **Email:** zeuslittler@gmail.com
+- **Discord:** ph9332
+
+
+---
+
+## ⭐ Support
+
+If you find this project valuable:
+- Star ⭐ this repository
+- Share within your networks
+- Contribute your expertise
+
+Together, we can build a fair, decentralized agricultural system for smallholders.
+
+---
+
