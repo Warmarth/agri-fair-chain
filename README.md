@@ -100,9 +100,13 @@ Distributed under the MIT License. See [LICENSE](LICENSE) for details.
 - **Twitter:** [@cobbyfarnky](https://twitter.com/@cobbyfarnky)
 - **Discord:** [cobbyfranky]
 
-- **Smart Contract:** ultra0x
-- **Email:** zeuslittler@gmail.com
-- **Discord:** ph9332
+- **Frontend Developer:** Austin
+- **Email:** 
+- **Discord:** 
+
+- **Frontend Developer:** Divine
+- **Email:** 
+- **Discord:** 
 
 
 ---
